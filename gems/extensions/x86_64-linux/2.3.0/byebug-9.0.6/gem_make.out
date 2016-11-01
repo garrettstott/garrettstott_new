@@ -1,0 +1,19 @@
+current directory: /home/garrettstott/Documents/projects/blog/gems/gems/byebug-9.0.6/ext/byebug
+/home/garrettstott/.rvm/rubies/ruby-2.3.1/bin/ruby -r ./siteconf20161031-21200-ib2chb.rb extconf.rb
+creating Makefile
+
+current directory: /home/garrettstott/Documents/projects/blog/gems/gems/byebug-9.0.6/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /home/garrettstott/Documents/projects/blog/gems/gems/byebug-9.0.6/ext/byebug
+make "DESTDIR="
+compiling breakpoint.c
+compiling context.c
+compiling threads.c
+compiling locker.c
+compiling byebug.c
+linking shared-object byebug/byebug.so
+
+current directory: /home/garrettstott/Documents/projects/blog/gems/gems/byebug-9.0.6/ext/byebug
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 byebug.so ./.gem.20161031-21200-17v9i21/byebug
