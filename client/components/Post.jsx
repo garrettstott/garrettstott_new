@@ -18,7 +18,7 @@ class Post extends React.Component {
           <h6 className='post-date'>{date}</h6>
         </div>
         {body}...
-        <h6 className='center pad-top-sm mar-bot-no'><Link className='normal' to={`/post/${post.id}`}>Read More</Link></h6>
+        <h6 className='center pad-top-sm mar-bot-no'><Link className='normal' to={`/posts/${post.id}`}>Read More</Link></h6>
       </div>
     )
   }
