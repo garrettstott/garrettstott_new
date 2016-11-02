@@ -12,6 +12,8 @@ class ShowPost extends React.Component {
       url: `/api/posts/${id}`,
       type: 'GET'
     }).done( post => {
+      post.body = post.body.replace(/\n/g, '<br />');
+      console.log(post.body);
       this.setState({ post });
     }).fail( error => {
       console.log(error);
