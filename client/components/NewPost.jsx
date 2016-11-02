@@ -10,6 +10,7 @@ class NewPost extends React.Component {
     e.preventDefault();
     let title = this.refs.title.value;
     let body = this.refs.body.value;
+    $('.submit').prop('disabled', true);
     $.ajax({
       url: '/api/posts/new',
       type: 'POST',
@@ -23,6 +24,7 @@ class NewPost extends React.Component {
         alert(done.title + ' Post Saved');
         this.props.history.push(`/admin/posts`)
       }
+      $('.submit').prop('disabled', false);
     }).fail( error => {
       console.log(error);
     })
@@ -40,7 +42,7 @@ class NewPost extends React.Component {
             <textarea ref='body' placeholder='Body'></textarea>
           </div>
           <div>
-            <input type='submit' value='Save' />
+            <input className='submit' type='submit' value='Save' />
             <a href='#' className='float-right' onClick={this.toggleNew}>Hide</a>
           </div>
         </form>
