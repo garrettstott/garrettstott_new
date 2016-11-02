@@ -38,7 +38,7 @@ class Admin extends React.Component {
   auth() {
     let user = this.state.user;
     if (user === null) {
-      return(<h1 className='center'>Not Authorized</h1>);
+      return(null);
     } else if (user !== null) {
       return (
         <div>
