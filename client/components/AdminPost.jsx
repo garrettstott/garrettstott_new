@@ -11,7 +11,7 @@ class AdminPost extends React.Component {
     let post = this.props;
     return (
       <div className='post clearfix'>
-        <h5>{post.title}</h5>
+        <h5><Link to={`/posts/${post.id}`}>{post.title}</Link></h5>
         <p>{new Date(post.created_at).toLocaleDateString()}</p>
         <p>{post.body.substring(0, 250)}...</p>
         <ul className='nav-links float-right'>
