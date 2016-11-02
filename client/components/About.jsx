@@ -49,7 +49,7 @@ class About extends React.Component {
           <h5><strong><a title='No Website' href='#'>High West Digital Architects</a></strong>, Salt Lake City, UT</h5>
           <h6><strong>Contract Developer</strong>, July 2016 - Present</h6>
           <ul>
-            <li>Project: <a title'PerformanceUT.com' href='https://www.performanceut.com/inventory/' target='_blank'>PerformanceUT.com</a></li>
+            <li>Project: <a title='PerformanceUT.com' href='https://www.performanceut.com/inventory/' target='_blank'>PerformanceUT.com</a></li>
             <li>Inventory Management</li>
               <li>Worked on optimizing website’s JavaScript and CSS.</li>
             	<li>Worked on security, by refactoring code to enable SSL certification.</li>
