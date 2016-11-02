@@ -23,7 +23,7 @@ class Home extends React.Component {
       return ( <Post key={post.id} {...post} /> )
     });
     if (posts.length < 1) {
-      posts = <div className='center'><p>No posts yet. Check back later.</p></div>
+      posts = <div className='center'><p>Loading Posts...</p></div>
     }
     return (
       <div className='twelve columns'>
