@@ -12,13 +12,6 @@ class ShowPost extends React.Component {
       url: `/api/posts/${id}`,
       type: 'GET'
     }).done( post => {
-      post.body = post.body.split('\n').map( (body, i) => {
-        return (
-          <div key={i}>
-            <p>{body}</p>
-          </div>
-        )
-      })
       this.setState({ post });
     }).fail( error => {
       console.log(error);
@@ -27,13 +20,14 @@ class ShowPost extends React.Component {
 
   render() {
     let post = this.state.post;
+    let body = post.body;
     return (
       <div className='twelve columns'>
         <div className='banner'></div>
         <div className='eight columns offset-by-two'>
           <h1 className='pad-top-sm center'>{post.title}</h1>
           <h6>{new Date(post.created_at).toLocaleDateString()}</h6>
-          {post.body}
+          <div dangerouslySetInnerHTML={{ __html: body }}></div>
         </div>
       </div>
     )

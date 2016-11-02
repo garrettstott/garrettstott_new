@@ -43,7 +43,6 @@ class NewPost extends React.Component {
           </div>
           <div>
             <input className='submit' type='submit' value='Save' />
-            <a href='#' className='float-right' onClick={this.toggleNew}>Hide</a>
           </div>
         </form>
       </div>

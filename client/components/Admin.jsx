@@ -55,7 +55,7 @@ class Admin extends React.Component {
             {this.props.children}
           </div>
         </div>
-      )
+      );
     }
   }
 
@@ -64,7 +64,7 @@ class Admin extends React.Component {
       <div>
         {this.auth()}
       </div>
-    )
+    );
   }
 }
 
