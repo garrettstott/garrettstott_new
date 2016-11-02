@@ -1,9 +1,13 @@
 class Api::PostsController < ApplicationController
 
-  before_action :authenticate_user!, execpt: :index
+  before_action :authenticate_user!, except: [:index, :show]
 
   def index
     render json: Post.all.order(created_at: :desc)
+  end
+
+  def show
+    render json: Post.find(params[:id])
   end
 
   def create
@@ -14,10 +18,6 @@ class Api::PostsController < ApplicationController
     else
       render json: { error: post.errors.full_messages.to_sentence }
     end
-  end
-
-  def show
-    render json: Post.find(params[:id])
   end
 
   def update

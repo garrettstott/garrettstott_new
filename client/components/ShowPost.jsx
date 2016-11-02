@@ -29,8 +29,9 @@ class ShowPost extends React.Component {
     let post = this.state.post;
     return (
       <div className='twelve columns'>
+        <div className='banner'></div>
         <div className='eight columns offset-by-two'>
-          <h1>{post.title}</h1>
+          <h1 className='pad-top-sm center'>{post.title}</h1>
           <h6>{new Date(post.created_at).toLocaleDateString()}</h6>
           {post.body}
         </div>

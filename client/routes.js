@@ -10,6 +10,8 @@ import EditPost from './components/EditPost';
 import AdminPosts from './components/AdminPosts';
 import AdminInfo from './components/AdminInfo';
 import Home from './components/Home';
+import Projects from './components/Projects';
+import About from './components/About';
 
 export default (
   <Route>
@@ -18,6 +20,8 @@ export default (
       </IndexRoute >
       <Route path='/blog' component={Blog} />
       <Route path='/posts/:id' component={ShowPost} />
+      <Route path='/projects' component={Projects} />
+      <Route path='/about' component={About} />
       <Route path='/admin' component={Admin} >
         <IndexRoute component={NewPost} >
         </IndexRoute>

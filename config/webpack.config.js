@@ -50,6 +50,13 @@ var config = {
             'file?hash=sha512&digest=hex&name=[hash].[ext]',
             'image-webpack?bypassOnDebug&optimizationLevel=7&interlaced=false'
         ]
+      },
+      {
+        test: /\.pdf(\?v=[0-9]\.[0-9]\.[0-9])?$/,
+        loaders: [
+            'file?hash=sha512&digest=hex&name=[hash].[ext]',
+            'file-loader'
+        ]
       }
     ]
   },

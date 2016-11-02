@@ -12,9 +12,13 @@ class Post extends React.Component {
     let body = post.body.substring(0, 250);
     return (
       <div className='post'>
-        <h5><Link to={`/posts/${post.id}`}>{post.title}</Link></h5>
-        <h6>{date}</h6>
-        {body}
+        <div className='post-info twelve columns'>
+          <div className='post-image'></div>
+          <h5><Link className='post-title' to={`/posts/${post.id}`}>{post.title}</Link></h5>
+          <h6 className='post-date'>{date}</h6>
+        </div>
+        {body}...
+        <h6 className='center pad-top-sm mar-bot-no'><Link className='normal' to={`/post/${post.id}`}>Read More</Link></h6>
       </div>
     )
   }

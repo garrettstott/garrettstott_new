@@ -22,9 +22,13 @@ class Home extends React.Component {
     let posts = this.state.posts.map( post => {
       return ( <Post key={post.id} {...post} /> )
     });
+    if (posts.length < 1) {
+      posts = <div className='center'><p>No posts yet. Check back later.</p></div>
+    }
     return (
       <div className='twelve columns'>
         <div className='banner'></div>
+        <h1 className='center'>Some Thoughts</h1>
         <div className='eight columns offset-by-two'>
           {posts}
         </div>
