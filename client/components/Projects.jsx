@@ -16,7 +16,7 @@ class Projects extends React.Component {
         <div className='eight columns offset-by-two'>
 
           <div className='twelve columns'>
-            <div className='four columns project belcher' title='belcher'>
+            <div className='four columns project belcher' title='Belcher'>
               <a href='http://belcher.herokuapp.com' target='_blank'>
                 <i className="fa fa-globe" aria-hidden="true"></i>
               </a>
@@ -26,7 +26,7 @@ class Projects extends React.Component {
             </div>
 
 
-            <div className='four columns project avblog' title='aegrecovitaeblog'>
+            <div className='four columns project avblog' title='Rails Blog App'>
               <a href='http://aegrescovitaeblog.herokuapp.com' target='_blank'>
                 <i className="fa fa-globe" aria-hidden="true"></i>
               </a>
@@ -36,7 +36,7 @@ class Projects extends React.Component {
             </div>
 
 
-            <div className='four columns project avrecipes' title='aegreacovitae recipes'>
+            <div className='four columns project avrecipes' title='Rails Recipe App'>
               <a href='http://aegrescovitaerecipes.herokuapp.com' target='_blank'>
                 <i className="fa fa-globe" aria-hidden="true"></i>
               </a>
@@ -49,7 +49,7 @@ class Projects extends React.Component {
 
           <div className='twelve columns'>
 
-            <div className='four columns project avstocks' title='aegrescovitae stocks'>
+            <div className='four columns project avstocks' title='Rails Stocks App'>
               <a href='http://aegrescovitaestocktracker.herokuapp.com' target='_blank'>
                 <i className="fa fa-globe" aria-hidden="true"></i>
               </a>
@@ -58,7 +58,7 @@ class Projects extends React.Component {
               </a>
             </div>
 
-            <div className='four columns project avphotoapp' title='aegrescovitae photo app'>
+            <div className='four columns project avphotoapp' title='Rails Photo App'>
               <a href='http://aegrescovitaephotoapp.herokuapp.com' target='_blank'>
                 <i className="fa fa-globe" aria-hidden="true"></i>
               </a>
@@ -68,7 +68,7 @@ class Projects extends React.Component {
             </div>
 
 
-            <div className='four columns project avsaas' title='aegrescovitae saas'>
+            <div className='four columns project avsaas' title='Rails SaaS App'>
               <a href='http://aegrescovitaesaas.herokuapp.com/' target='_blank'>
                 <i className="fa fa-globe" aria-hidden="true"></i>
               </a>
