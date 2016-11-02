@@ -26,7 +26,7 @@ class Home extends React.Component {
       posts = <div className='center'><p>Loading Posts...</p></div>
     }
     return (
-      <div className='twelve columns'>
+      <div className='blogs twelve columns'>
         <div className='banner'></div>
         <h1 className='center'>Some Thoughts</h1>
         <div className='six columns offset-by-three'>

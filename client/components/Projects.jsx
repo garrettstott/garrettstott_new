@@ -7,7 +7,7 @@ class Projects extends React.Component {
 
   render() {
     return (
-      <div className='twelve columns'>
+      <div className='projects twelve columns'>
         <div className='pad-left-sm'>
           <h1 className='mar-bot-sm'>Recent Projects</h1>
           <p>Many more can be found on GitHub<a href='https://github.com/garrettstott' target='_blank'><i className='pad-left-sm fa fa-github'></i></a></p>

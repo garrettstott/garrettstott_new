@@ -9,7 +9,7 @@ class Navbar extends React.Component {
   render() {
     return (
       <div className='navbar twelve columns clearfix'>
-        <Link to='/' title='Home' className='nav-title'>Garrett Stott</Link>
+        <Link to='/' title='Home'><div className='navbar-image'></div></Link>
           <ul className='nav-links'>
             <Link title='Projects' to='/projects'><li>Projects</li></Link>
             <Link title='About' to='/about'><li>About</li></Link>
