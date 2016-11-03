@@ -29,14 +29,14 @@ class About extends React.Component {
 
           {/* DEVPOINT */}
 
-          <h5><strong><a title='DevPointLabs.com' href='http://www.devpointlabs.com' target='_blank'>DevPoint Labs</a></strong>, Salt Lake City, UT</h5>
-          <h6><strong>Co-Instructor</strong>, July 2016 - Present</h6>
+          <h5><a title='DevPointLabs.com' href='http://www.devpointlabs.com' target='_blank'>DevPoint Labs</a>, Salt Lake City, UT</h5>
+          <h6>Co-Instructor, July 2016 - Present</h6>
           <ul>
             <li>I have applied my history of management and organizational roles to help structure the curriculum and day-to-day flow of the programs at DevPoint Labs.</li>
             <li>Running Labs, keeping students on track with their projects.</li>
             <li>Maintaining <a title='DevPointLabs.com' href='http://www.devpointlabs.com' target='_blank'>DevPointLabs.com</a></li>
           </ul>
-          <h6><strong>Teaching Assistant</strong>, May 2016 – July 2016</h6>
+          <h6>Teaching Assistant, May 2016 – July 2016</h6>
           <ul>
             <li>Monitor students’ progress through DevPoint Labs.</li>
             <li>Teaching Assistant in maximizing student understanding and development.</li>
@@ -46,8 +46,8 @@ class About extends React.Component {
 
           {/* PERFORMANCE UT */}
 
-          <h5><strong><a title='No Website' href='#'>High West Digital Architects</a></strong>, Salt Lake City, UT</h5>
-          <h6><strong>Contract Developer</strong>, July 2016 - Present</h6>
+          <h5><a title='No Website' href='#'>High West Digital Architects</a>, Salt Lake City, UT</h5>
+          <h6>Contract Developer, July 2016 - Present</h6>
           <ul>
             <li>Project: <a title='PerformanceUT.com' href='https://www.performanceut.com/inventory/' target='_blank'>PerformanceUT.com</a></li>
             <li>Inventory Management</li>
@@ -58,8 +58,8 @@ class About extends React.Component {
 
           {/* LOLO */}
 
-          <h5><strong><a title='LoloFit.com' href='http://www.lolofit.com/' target='_blank'>Lolo</a></strong>, Salt Lake City, UT</h5>
-          <h6><strong>Contract Developer</strong>, October 2016 - Present</h6>
+          <h5><a title='LoloFit.com' href='http://www.lolofit.com/' target='_blank'>Lolo</a>, Salt Lake City, UT</h5>
+          <h6>Contract Developer, October 2016 - Present</h6>
           <ul>
             <li>Project: <a title='YES!FitnessMusic.com' href='http://www.yesfitnessmusic.com/#/store/home' target='_blank'>Yes! Fitness Music</a></li>
             <li>I'm currently working on a few new features and bug fixes.</li>
