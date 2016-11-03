@@ -1,4 +1,4 @@
 ## Personal Website 
-[garrettstott.com](www.garrettstott.com)
+[garrettstott.com](http://www.garrettstott.com)
 ### Rails App
 ### React/Router/Redux
