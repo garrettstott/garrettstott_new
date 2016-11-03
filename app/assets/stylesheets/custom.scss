@@ -238,7 +238,7 @@ input[type='text'], input[type='email'], input[type='password'], textarea {
   background-color: black;
   background-image: linear-gradient(rgba(0, 1, 107, 0.5),rgba(152, 69, 1, 0.5));
   @media (min-width: 549px) {
-    height: calc(100vh - 80px);
+    min-height: calc(100vh - 80px);
   }
 }
 
@@ -285,8 +285,8 @@ input[type='text'], input[type='email'], input[type='password'], textarea {
 
 .blogs {
   margin-bottom: 20px;
-  @media (min-width: 549px) {
-    height: calc(100vh - 80px);
+  @media (max-width: 549px) {
+    min-height: calc(100vh - 80px);
   }
 }
 
@@ -361,7 +361,7 @@ input[type='text'], input[type='email'], input[type='password'], textarea {
 
 .projects {
   @media (min-width: 549px) {
-    height: calc(100vh - 80px);
+    min-height: calc(100vh - 80px);
   }
 }
 
