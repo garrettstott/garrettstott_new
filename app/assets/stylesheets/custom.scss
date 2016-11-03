@@ -204,37 +204,10 @@ input[type='text'], input[type='email'], input[type='password'], textarea {
   margin: 0;
 }
 
-// FOOTER
-
-.footer {
-  position: relative;
-  bottom: 0;
-  height: 40px;
-  background-color: black;
-}
-
-.footer-wrapper * {
-  -webkit-transform: translate3d(0, 0, 0);
-  -moz-transform: translate3d(0, 0, 0);
-  -webkit-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
-}
-
-.footer h6 {
-  position: absolute;
-  bottom: 0;
-  color: $Light;
-  padding-left: 10px;
-}
-
-.footer * {
-  display: inline-block;
-}
-
 // HOME
 
 .home {
-  height: calc(100vh - 80px);
+  height: calc(100vh - 40px);
   text-align: center;
   color: $Light;
   background-size: cover;
