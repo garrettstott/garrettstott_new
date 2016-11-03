@@ -292,7 +292,7 @@ input[type='text'], input[type='email'], input[type='password'], textarea {
   height: 100%;
   margin-bottom: 20px;
   @media (min-width: 549px) {
-    min-height: calc(100vh - 80px);
+    min-height: calc(100vh - 255px);
   }
 }
 
@@ -300,7 +300,7 @@ input[type='text'], input[type='email'], input[type='password'], textarea {
   height: 100%;
   margin-bottom: 20px;
   @media (min-width: 400px) {
-    min-height: calc(100vh - 80px);
+    min-height: calc(100vh - 255px);
   }
 }
 
