@@ -32,7 +32,7 @@ class NewPost extends React.Component {
 
   render() {
     return (
-      <div className='newpost ten columns offset-by-one'>
+      <div className='new-post ten columns offset-by-one'>
         <form className='new-post-form' onSubmit={this.handleSubmit}>
           <div>
             <h3>New Post</h3>

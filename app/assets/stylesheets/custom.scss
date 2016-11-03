@@ -426,3 +426,11 @@ input[type='text'], input[type='email'], input[type='password'], textarea {
   background-size: contain;
   background-repeat: no-repeat;
 }
+
+// ADMIN
+
+.admin-posts, .new-post {
+  @media (min-width: 549px) {
+    min-height: calc(100vh - 184px);
+  }
+}
