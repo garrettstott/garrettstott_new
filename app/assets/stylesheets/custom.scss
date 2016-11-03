@@ -16,7 +16,7 @@ body, html {
   color: $Dark;
 }
 
-.wrapper, .home {
+.wrapperf {
   height: 100%;
   min-height: calc(100vh - 40px);
 }
@@ -234,13 +234,13 @@ input[type='text'], input[type='email'], input[type='password'], textarea {
 // HOME
 
 .home {
+  height: calc(100vh - 80px);
   text-align: center;
   color: $Light;
   background-size: cover;
   background-repeat: no-repeat;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7),
                     rgba(0, 0, 0, 0.7)), url(asset_path('pexels.jpg'));
-  margin-bottom: -40px;
 }
 
 .garrettstott {
