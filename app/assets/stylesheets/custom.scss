@@ -234,7 +234,8 @@ input[type='text'], input[type='email'], input[type='password'], textarea {
 // HOME
 
 .home {
-  height: 800px;
+  height: 100%;
+  min-height: 700px;
   text-align: center;
   color: $Light;
   background-size: cover;
@@ -287,6 +288,7 @@ input[type='text'], input[type='email'], input[type='password'], textarea {
 // POST
 
 .blogs {
+  min-height: 600px;
   height: 100%;
   margin-bottom: 20px;
   @media (min-width: 549px) {
