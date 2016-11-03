@@ -287,8 +287,17 @@ input[type='text'], input[type='email'], input[type='password'], textarea {
 // POST
 
 .blogs {
+  height: 100%;
   margin-bottom: 20px;
-  @media (max-width: 549px) {
+  @media (min-width: 549px) {
+    min-height: calc(100vh - 80px);
+  }
+}
+
+.showpost {
+  height: 100%;
+  margin-bottom: 20px;
+  @media (min-width: 400px) {
     min-height: calc(100vh - 80px);
   }
 }
@@ -318,13 +327,6 @@ input[type='text'], input[type='email'], input[type='password'], textarea {
   display: block;
   margin: 0 auto;
   height: 100px;
-}
-
-.showpost {
-  margin-bottom: 20px;
-  @media (max-width: 400px) {
-    height: 160px;
-  }
 }
 
 .showpost img {
