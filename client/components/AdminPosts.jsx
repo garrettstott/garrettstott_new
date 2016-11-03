@@ -43,7 +43,7 @@ class AdminPosts extends React.Component {
       return(<AdminPost deletePost={this.deletePost} key={post.id} {...post} />);
     })
     return (
-      <div className='ten columns offset-by-one'>
+      <div className='admin-posts ten columns offset-by-one'>
         <h3>All Posts</h3>
         {posts}
       </div>

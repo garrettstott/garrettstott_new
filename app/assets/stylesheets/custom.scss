@@ -258,6 +258,7 @@ input[type='text'], input[type='email'], input[type='password'], textarea {
 
 .blogs {
   margin-bottom: 20px;
+  min-height: calc(100vh - 80px);
 }
 
 .banner {
@@ -289,6 +290,7 @@ input[type='text'], input[type='email'], input[type='password'], textarea {
 
 .showpost {
   margin-bottom: 20px;
+  min-height: calc(100vh - 80px);
 }
 
 .showpost img {
@@ -378,4 +380,10 @@ input[type='text'], input[type='email'], input[type='password'], textarea {
   background-image: url(asset_path('avsaas'));
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+// ADMIN
+
+.newpost, .admin-posts, .edit-post, .admin-post {
+  min-height: calc(100vh - 80px);
 }

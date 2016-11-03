@@ -44,7 +44,7 @@ class EditPost extends React.Component {
     let post = this.state.post;
     if (post.id) {
       return (
-        <div className='ten columns offset-by-one'>
+        <div className='edit-post ten columns offset-by-one'>
           <h3>Edit Post</h3>
           <form className='new-post-form' onSubmit={this.updatePost}>
             <input type='text' ref='title' defaultValue={post.title} />

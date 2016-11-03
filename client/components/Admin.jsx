@@ -42,7 +42,7 @@ class Admin extends React.Component {
     } else if (user !== null) {
       return (
         <div>
-          <div className='twelve columns'>
+          <div className='admin twelve columns'>
             <ul className='nav-links float-right'>
               <Link to='/admin/'><li>New Post</li></Link>
               <Link to='/admin/posts'><li>Show Posts</li></Link>
