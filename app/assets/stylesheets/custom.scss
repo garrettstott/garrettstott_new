@@ -211,7 +211,7 @@ input[type='text'], input[type='email'], input[type='password'], textarea {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7),
                 rgba(0, 0, 0, 0.7)), url(asset_path('pexels'));
   @media (max-width: 400px) {
-    height: calc(100vh - 80px);
+    height: calc(100vh - 60px);
   }
 }
 
@@ -226,7 +226,14 @@ input[type='text'], input[type='email'], input[type='password'], textarea {
   background-repeat: no-repeat;
   background-size: contain;
   @media (max-width: 400px) {
-    margin-top: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+.home-title {
+  @media (max-width: 400px) {
+    margin-bottom: 10px;
   }
 }
 
@@ -238,7 +245,7 @@ input[type='text'], input[type='email'], input[type='password'], textarea {
 
 .contact-email {
   @media (max-width: 400px) {
-    margin: 0;
+    margin-bottom: 10px;
     padding: 0;
   }
 }
@@ -259,6 +266,9 @@ input[type='text'], input[type='email'], input[type='password'], textarea {
   background-color: black;
   background-image: url(asset_path('banner-image'));
   margin-bottom: 15px;
+  @media (max-width: 400px) {
+    height: 80px;
+  }
 }
 
 .post-info * {
@@ -271,8 +281,10 @@ input[type='text'], input[type='email'], input[type='password'], textarea {
   margin-left: 41px;
 }
 
-.post-title {
-
+.post img {
+  display: block;
+  margin: 0 auto;
+  height: 100px;
 }
 
 .showpost {
@@ -296,6 +308,7 @@ input[type='text'], input[type='email'], input[type='password'], textarea {
 }
 
 .post {
+  position: relative;
   background-color: white;
   border: 1px solid darken($Light, 10%);
   padding: 10px;
