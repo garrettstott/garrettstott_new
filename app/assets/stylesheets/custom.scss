@@ -5,8 +5,36 @@ $Light: #f5f5f5;
 $Dark: #373737;
 $Highlight: #F9C457;
 
+// FOOTER - WRAPPER
+
+.footer {
+  background-color: black;
+  padding: 10px;
+}
+
+.footer * {
+  color: $Light;
+}
+
+.wrapper {
+  height: 100%;
+  margin-bottom: -40px;
+}
+
+.wrapper:after {
+  content: '';
+  display: block;
+}
+
+.footer, .wrapper:after {
+  height: 40px;
+}
 
 // CUSTOM
+
+* {
+  margin: 0;
+}
 
 body, html {
   width: 100%;
@@ -14,11 +42,6 @@ body, html {
   min-width: 320px;
   background: $Light;
   color: $Dark;
-}
-
-.wrapper {
-  height: 100%;
-  min-height: calc(100vh - 40px);
 }
 
 .projects, .blogs, .blog, .about, .showpost {
@@ -207,13 +230,16 @@ input[type='text'], input[type='email'], input[type='password'], textarea {
 // HOME
 
 .home {
-  height: calc(100vh - 40px);
+  height: 100%;
   text-align: center;
   color: $Light;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7),
-                    rgba(0, 0, 0, 0.7)), url(asset_path('pexels.jpg'));
+  background-color: black;
+  background-image: linear-gradient(rgba(0, 1, 107, 0.5),rgba(152, 69, 1, 0.5));
+  @media (min-width: 549px) {
+    height: calc(100vh - 80px);
+  }
 }
 
 .garrettstott {
@@ -259,6 +285,9 @@ input[type='text'], input[type='email'], input[type='password'], textarea {
 
 .blogs {
   margin-bottom: 20px;
+  @media (min-width: 549px) {
+    height: calc(100vh - 80px);
+  }
 }
 
 .banner {
@@ -290,6 +319,9 @@ input[type='text'], input[type='email'], input[type='password'], textarea {
 
 .showpost {
   margin-bottom: 20px;
+  @media (max-width: 400px) {
+    height: 160px;
+  }
 }
 
 .showpost img {
@@ -328,6 +360,9 @@ input[type='text'], input[type='email'], input[type='password'], textarea {
 // PROJECTS
 
 .projects {
+  @media (min-width: 549px) {
+    height: calc(100vh - 80px);
+  }
 }
 
 .project {
@@ -357,12 +392,6 @@ input[type='text'], input[type='email'], input[type='password'], textarea {
 
 .avblog {
   background-image: url(asset_path('avblog'));// HEIGHT FIX
-
-.wrapper {
-  height: 100%;
-  min-height: calc(100vh - 60px);
-}
-
   background-size: contain;
   background-repeat: no-repeat;
 }
