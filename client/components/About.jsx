@@ -7,7 +7,7 @@ class About extends React.Component {
 
   render() {
     return (
-      <div className='twelve columns'>
+      <div className='about twelve columns'>
         <div className='pad-left-sm'>
           <h1>About</h1>
         </div>

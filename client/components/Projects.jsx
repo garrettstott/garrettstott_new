@@ -10,7 +10,7 @@ class Projects extends React.Component {
       <div className='projects twelve columns'>
         <div className='pad-left-sm'>
           <h1 className='mar-bot-sm'>Recent Projects</h1>
-          <p>Many more can be found on GitHub<a href='https://github.com/garrettstott' target='_blank'><i className='pad-left-sm fa fa-github'></i></a></p>
+          <p>Many more can be found on GitHub<a href='https://github.com/garrettstott' target='_blank'><i className='mar-left-sm fa fa-github'></i></a></p>
         </div>
 
         <div className='eight columns offset-by-two'>

@@ -23,12 +23,14 @@ class ShowPost extends React.Component {
     let post = this.state.post;
     let body = post.body;
     return (
-      <div className='showpost twelve columns'>
+      <div>
         <div className='banner'></div>
-        <div className='eight columns offset-by-two'>
-          <h1 className='pad-top-sm center'>{post.title}</h1>
-          <h6>{new Date(post.created_at).toLocaleDateString()}</h6>
-          <div dangerouslySetInnerHTML={{ __html: body }}></div>
+        <div className='showpost twelve columns'>
+          <div className='eight columns offset-by-two'>
+            <h1 className='pad-top-sm center'>{post.title}</h1>
+            <h6>{new Date(post.created_at).toLocaleDateString()}</h6>
+            <div dangerouslySetInnerHTML={{ __html: body }}></div>
+          </div>
         </div>
       </div>
     )
