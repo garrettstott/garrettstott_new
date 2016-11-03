@@ -207,6 +207,10 @@ input[type='text'], input[type='email'], input[type='password'], textarea {
 // FOOTER
 
 .footer {
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
   position: relative;
   bottom: 0;
   height: 40px;
