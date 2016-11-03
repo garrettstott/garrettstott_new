@@ -8,9 +8,11 @@ class Footer extends React.Component {
   render() {
     let date = new Date().getFullYear();
     return (
-      <div className='footer twelve columns'>
-        <div className='footer-image'></div>
-        <h6 className='mar-pad-no'>&copy; Garrett Stott {date}</h6>
+      <div className='footer-wrapper'>
+        <div className='footer twelve columns'>
+          <div className='footer-image'></div>
+          <h6 className='mar-pad-no'>&copy; Garrett Stott {date}</h6>
+        </div>
       </div>
     )
   }
