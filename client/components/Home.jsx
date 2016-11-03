@@ -15,10 +15,11 @@ class Home extends React.Component {
           <h5 className="contact-email">garrettstott@gmail.com</h5>
           <div className="contact-icons">
             <a href="https://github.com/garrettstott" target="_blank" title="GitHub">
-              <i className="contact-fa fa fa-github"></i></a>
+              <i className="contact-fa fa fa-github"></i>
+            </a>
             <a href="https://www.linkedin.com/in/garrettstott" target="_blank" title="Linkedin">
-              <i className="contact-fa fa fa-linkedin-square"></i></a>
-            <a className="tron-link" href="#" title="You Are Here"></a>
+              <i className="contact-fa fa fa-linkedin-square"></i>
+            </a>
           </div>
         </div>
       </div>
