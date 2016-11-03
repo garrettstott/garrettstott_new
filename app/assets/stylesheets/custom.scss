@@ -429,7 +429,7 @@ input[type='text'], input[type='email'], input[type='password'], textarea {
 
 // ADMIN
 
-.admin-posts, .new-post {
+.admin-posts, .new-post, .editpost {
   @media (min-width: 549px) {
     min-height: calc(100vh - 184px);
   }
