@@ -8,9 +8,10 @@ class Home extends React.Component {
   render() {
     return (
       <div className='home twelve columns'>
-        <div className='garrettstott'></div>
         <div className='twelve columns'>
-          <h5 className="home-title">Full Stack Ruby on Rails Developer</h5>
+          <div className='garrettstott'></div>
+          <h3 className='home-title'>Garrett Stott</h3>
+          <h5 className="home-subtitle">Full Stack Ruby on Rails Developer</h5>
           <h5 className="contact-email">garrettstott@gmail.com</h5>
           <div className="contact-icons">
             <a href="https://github.com/garrettstott" target="_blank" title="GitHub">
