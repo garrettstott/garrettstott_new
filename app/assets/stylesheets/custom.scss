@@ -83,6 +83,10 @@ strong {
   margin-bottom: 10px;
 }
 
+.mar-top-md {
+  margin-top: 40px;
+}
+
 .mar-left-sm {
   margin-left: 10px;
 }
@@ -433,4 +437,16 @@ input[type='text'], input[type='email'], input[type='password'], textarea {
   @media (min-width: 549px) {
     min-height: calc(100vh - 184px);
   }
+}
+
+// 404
+
+.frown {
+  margin: 0 auto;
+  margin-top: 40px;
+  width: 310px;
+  height: 425px;
+  background-image: url(asset_path('frown'));
+  background-size: contain;
+  background-repeat: no-repeat;
 }
