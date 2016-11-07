@@ -245,7 +245,7 @@ input[type='text'], input[type='email'], input[type='password'], textarea {
   background-size: cover;
   background-repeat: no-repeat;
   background-color: black;
-  background-image: linear-gradient(rgba(0, 1, 107, 0.5),rgba(152, 69, 1, 0.5));
+  background-image: linear-gradient(rgba(32, 32, 32, .6),rgba(152, 69, 1, 0.4));
   @media (min-width: 549px) {
     min-height: calc(100vh - 80px);
   }
