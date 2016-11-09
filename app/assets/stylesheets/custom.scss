@@ -242,10 +242,10 @@ input[type='text'], input[type='email'], input[type='password'], textarea {
   min-height: 700px;
   text-align: center;
   color: $Light;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)), url(asset_path('orange-code'));
   background-size: cover;
   background-repeat: no-repeat;
   background-color: black;
-  background-image: linear-gradient(rgba(0, 0, 0, 1),rgba(152, 69, 1, 0.4));
   @media (min-width: 549px) {
     min-height: calc(100vh - 80px);
   }
