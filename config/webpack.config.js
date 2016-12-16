@@ -16,6 +16,12 @@ var config = {
     "webpack:deploy": "webpack --config=config/webpack.config.js -p",
     "heroku-postbuild": "npm run webpack:deploy"
   },
+  
+  scripts: {
+    "webpack:deploy": "webpack --config=config/webpack.config.js -p",
+    "heroku-postbuild": "npm run webpack:deploy"
+  },
+
   entry: {
     // Sources are expected to live in $app_root/webpack
     'application': './client/application.js'
