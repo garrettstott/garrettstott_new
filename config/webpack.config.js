@@ -12,15 +12,6 @@ var devServerPort = 3808;
 var production = process.env.TARGET === 'production';
 
 var config = {
-  "scripts": {
-    "webpack:deploy": "webpack --config=config/webpack.config.js -p",
-    "heroku-postbuild": "npm run webpack:deploy"
-  },
-  
-  scripts: {
-    "webpack:deploy": "webpack --config=config/webpack.config.js -p",
-    "heroku-postbuild": "npm run webpack:deploy"
-  },
 
   entry: {
     // Sources are expected to live in $app_root/webpack
