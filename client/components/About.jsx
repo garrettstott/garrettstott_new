@@ -41,7 +41,7 @@ class About extends React.Component {
             <li>Monitor students’ progress through DevPoint Labs.</li>
             <li>Teaching Assistant in maximizing student understanding and development.</li>
             <li>Teach Ruby on Rails along with other web technologies -</li>
-            <li>Including: Ruby, Rails, HTML, CSS, JavaScript, SQL, Git, React and Redux</li>
+            <li>Including: Ruby, Rails, HTML, CSS, JavaScript, SQL, Git, React and Redux.</li>
           </ul>
 
           {/* PERFORMANCE UT */}
@@ -50,10 +50,10 @@ class About extends React.Component {
           <h6>Contract Developer, July 2016 - Present</h6>
           <ul>
             <li>Project: <a title='PerformanceUT.com' href='https://www.performanceut.com/inventory/' target='_blank'>PerformanceUT.com</a></li>
-            <li>Inventory Management</li>
-              <li>Worked on optimizing website’s JavaScript and CSS.</li>
-            	<li>Worked on security, by refactoring code to enable SSL certification.</li>
-            	<li>Built new features for current website.</li>
+            <li>Inventory Management for multiple dealerships.</li>
+            <li>Worked on optimizing website’s JavaScript and CSS.</li>
+          	<li>Worked on security, by refactoring code to enable SSL certification.</li>
+          	<li>Implemented for sale by owner solution for clientele</li>
           </ul>
 
           {/* LOLO */}
