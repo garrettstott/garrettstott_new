@@ -53,7 +53,7 @@ class About extends React.Component {
             <li>Inventory Management for multiple dealerships.</li>
             <li>Worked on optimizing website’s JavaScript and CSS.</li>
           	<li>Worked on security, by refactoring code to enable SSL certification.</li>
-          	<li>Implemented for sale by owner solution for clientele</li>
+          	<li>Implemented for sale by owner solution for clientele.</li>
           </ul>
 
           {/* LOLO */}
