@@ -25,6 +25,7 @@ class About extends React.Component {
         </div>
 
         <div className='six columns'>
+          
           <h4>Experience</h4>
 
           {/* DEVPOINT */}
