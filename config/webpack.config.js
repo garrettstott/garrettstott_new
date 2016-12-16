@@ -12,6 +12,10 @@ var devServerPort = 3808;
 var production = process.env.TARGET === 'production';
 
 var config = {
+  "scripts": {
+    "webpack:deploy": "webpack --config=config/webpack.config.js -p",
+    "heroku-postbuild": "npm run webpack:deploy"
+  },
   entry: {
     // Sources are expected to live in $app_root/webpack
     'application': './client/application.js'
@@ -26,10 +30,6 @@ var config = {
     publicPath: '/client/',
 
     filename: production ? '[name]-[chunkhash].js' : '[name].js'
-  },
-    "scripts": {
-    "webpack:deploy": "webpack --config=config/webpack.config.js -p",
-    "heroku-postbuild": "npm run webpack:deploy"
   },
 
   resolve: {

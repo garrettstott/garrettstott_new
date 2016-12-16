@@ -12,6 +12,11 @@ var devServerPort = 3808;
 var production = process.env.NODE_ENV === 'production';
 
 var config = {
+
+  "scripts": {
+    "webpack:deploy": "webpack --config=config/webpack.config.js -p",
+    "heroku-postbuild": "npm run webpack:deploy"
+  },
   entry: {
     // Sources are expected to live in $app_root/webpack
     'application': './client/application.js'
@@ -31,10 +36,6 @@ var config = {
   resolve: {
     root: path.join(__dirname, '..', 'client'),
     extensions: ["", ".js", ".jsx", ".es6"]
-  },
-    "scripts": {
-    "webpack:deploy": "webpack --config=config/webpack.config.js -p",
-    "heroku-postbuild": "npm run webpack:deploy"
   },
 
   module: {
