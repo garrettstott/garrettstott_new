@@ -27,6 +27,10 @@ var config = {
 
     filename: production ? '[name]-[chunkhash].js' : '[name].js'
   },
+    "scripts": {
+    "webpack:deploy": "webpack --config=config/webpack.config.js -p",
+    "heroku-postbuild": "npm run webpack:deploy"
+  },
 
   resolve: {
     root: path.join(__dirname, '..', 'client'),
@@ -43,20 +47,6 @@ var config = {
         {
           presets:['es2015', 'react', 'stage-0']
         }
-      },
-      {
-        test: /\.(jpe?g|png|gif|svg)$/i,
-        loaders: [
-            'file?hash=sha512&digest=hex&name=[hash].[ext]',
-            'image-webpack?bypassOnDebug&optimizationLevel=7&interlaced=false'
-        ]
-      },
-      {
-        test: /\.pdf(\?v=[0-9]\.[0-9]\.[0-9])?$/,
-        loaders: [
-            'file?hash=sha512&digest=hex&name=[hash].[ext]',
-            'file-loader'
-        ]
       }
     ]
   },
