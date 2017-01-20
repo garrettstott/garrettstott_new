@@ -25,7 +25,7 @@ class About extends React.Component {
         </div>
 
         <div className='six columns'>
-          
+
           <h4>Experience</h4>
 
           {/* DEVPOINT */}
@@ -48,7 +48,7 @@ class About extends React.Component {
           {/* PERFORMANCE UT */}
 
           <h5><a title='No Website' href='#'>High West Digital Architects</a>, Salt Lake City, UT</h5>
-          <h6>Contract Developer, July 2016 - Present</h6>
+          <h6>Software Engineer, July 2016 - Present</h6>
           <ul>
             <li>Project: <a title='PerformanceUT.com' href='https://www.performanceut.com/inventory/' target='_blank'>PerformanceUT.com</a></li>
             <li>Inventory Management for multiple dealerships.</li>
@@ -60,7 +60,7 @@ class About extends React.Component {
           {/* LOLO */}
 
           <h5><a title='LoloFit.com' href='http://www.lolofit.com/' target='_blank'>Lolo</a>, Salt Lake City, UT</h5>
-          <h6>Contract Developer, October 2016 - Present</h6>
+          <h6>Software Engineer, October 2016 - Present</h6>
           <ul>
             <li>Project: <a title='YES!FitnessMusic.com' href='http://www.yesfitnessmusic.com/#/store/home' target='_blank'>Yes! Fitness Music</a></li>
             <li>I'm currently working on a few new features and bug fixes.</li>
