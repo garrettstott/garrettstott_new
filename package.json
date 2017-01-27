@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "license": "MIT",
   "scripts": {
-    "dev_server": "eslint client/ && webpack-dashboard -- ./node_modules/.bin/webpack-dev-server --config config/webpack.config.js",
+    "dev_server": "webpack-dashboard -- ./node_modules/.bin/webpack-dev-server --config config/webpack.config.js",
     "build": "webpack --config=config/webpack.config.js -p",
     "heroku-setup": "heroku buildpacks:clear && heroku buildpacks:set heroku/nodejs && heroku buildpacks:add heroku/ruby --index 2",
     "webpack:deploy-heroku": "webpack --config=config/webpack.config.heroku.js -p",
@@ -27,8 +27,6 @@
     "webpack-dev-middleware": "1.7.0"
   },
   "devDependencies": {
-    "eslint": "^3.9.1",
-    "eslint-plugin-react": "^6.5.0",
     "webpack-dashboard": "^0.2.0",
     "webpack-dev-server": "^1.9.0",
     "yarn": "^0.16.1"

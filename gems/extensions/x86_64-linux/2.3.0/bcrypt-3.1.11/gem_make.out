@@ -1,19 +1,19 @@
-current directory: /home/garrettstott/Documents/projects/blog/gems/gems/bcrypt-3.1.11/ext/mri
-/home/garrettstott/.rvm/rubies/ruby-2.3.1/bin/ruby -r ./siteconf20161031-2165-2xyepy.rb extconf.rb
+current directory: /home/garrettstott/Documents/projects/personal-website/gems/gems/bcrypt-3.1.11/ext/mri
+/home/garrettstott/.rvm/rubies/ruby-2.3.1/bin/ruby -r ./siteconf20170127-17151-isqd0m.rb extconf.rb 
 creating Makefile
 
-current directory: /home/garrettstott/Documents/projects/blog/gems/gems/bcrypt-3.1.11/ext/mri
+current directory: /home/garrettstott/Documents/projects/personal-website/gems/gems/bcrypt-3.1.11/ext/mri
 make "DESTDIR=" clean
 
-current directory: /home/garrettstott/Documents/projects/blog/gems/gems/bcrypt-3.1.11/ext/mri
+current directory: /home/garrettstott/Documents/projects/personal-website/gems/gems/bcrypt-3.1.11/ext/mri
 make "DESTDIR="
-compiling crypt_blowfish.c
-compiling crypt.c
-compiling wrapper.c
 compiling bcrypt_ext.c
+compiling crypt.c
+compiling crypt_blowfish.c
 compiling crypt_gensalt.c
+compiling wrapper.c
 linking shared-object bcrypt_ext.so
 
-current directory: /home/garrettstott/Documents/projects/blog/gems/gems/bcrypt-3.1.11/ext/mri
+current directory: /home/garrettstott/Documents/projects/personal-website/gems/gems/bcrypt-3.1.11/ext/mri
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 bcrypt_ext.so ./.gem.20161031-2165-th582k
+/usr/bin/install -c -m 0755 bcrypt_ext.so ./.gem.20170127-17151-rt553m

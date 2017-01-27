@@ -1,5 +1,5 @@
-current directory: /home/garrettstott/Documents/projects/blog/gems/gems/nio4r-1.2.1/ext/nio4r
-/home/garrettstott/.rvm/rubies/ruby-2.3.1/bin/ruby -r ./siteconf20161031-21200-x0lkgx.rb extconf.rb
+current directory: /home/garrettstott/Documents/projects/personal-website/gems/gems/nio4r-1.2.1/ext/nio4r
+/home/garrettstott/.rvm/rubies/ruby-2.3.1/bin/ruby -r ./siteconf20170127-17151-t0x7tk.rb extconf.rb 
 checking for unistd.h... yes
 checking for rb_thread_blocking_region()... no
 checking for rb_thread_call_without_gvl()... yes
@@ -11,14 +11,10 @@ checking for port.h... no
 checking for sys/resource.h... yes
 creating Makefile
 
-To see why this extension failed to compile, please check the mkmf.log which can be found here:
-
-  /home/garrettstott/Documents/projects/blog/gems/extensions/x86_64-linux/2.3.0/nio4r-1.2.1/mkmf.log
-
-current directory: /home/garrettstott/Documents/projects/blog/gems/gems/nio4r-1.2.1/ext/nio4r
+current directory: /home/garrettstott/Documents/projects/personal-website/gems/gems/nio4r-1.2.1/ext/nio4r
 make "DESTDIR=" clean
 
-current directory: /home/garrettstott/Documents/projects/blog/gems/gems/nio4r-1.2.1/ext/nio4r
+current directory: /home/garrettstott/Documents/projects/personal-website/gems/gems/nio4r-1.2.1/ext/nio4r
 make "DESTDIR="
 compiling monitor.c
 monitor.c: In function ‘NIO_Monitor_initialize’:
@@ -381,6 +377,6 @@ selector.c:107:5: warning: dereferencing type-punned pointer will break strict-a
 selector.c:107:5: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
 linking shared-object nio4r_ext.so
 
-current directory: /home/garrettstott/Documents/projects/blog/gems/gems/nio4r-1.2.1/ext/nio4r
+current directory: /home/garrettstott/Documents/projects/personal-website/gems/gems/nio4r-1.2.1/ext/nio4r
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 nio4r_ext.so ./.gem.20161031-21200-l0nk3l
+/usr/bin/install -c -m 0755 nio4r_ext.so ./.gem.20170127-17151-1d2uszx
