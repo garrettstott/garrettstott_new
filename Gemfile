@@ -2,7 +2,6 @@ source 'https://rubygems.org'
 
 ruby '2.3.1'
 
-gem 'skeleton-rails', :git => 'https://github.com/helios-technologies/skeleton-rails'
 gem 'font-awesome-rails'
 gem 'devise'
 gem 'repack'
