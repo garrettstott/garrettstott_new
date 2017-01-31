@@ -395,6 +395,28 @@ input[type='text'], input[type='email'], input[type='password'], textarea {
   font-size: 2em;
 }
 
+.personal-projects, .pro-projects {
+  margin-bottom: 50px;
+}
+
+.devpoint {
+  background-image: url(asset_path('dpl'));
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.performance {
+  background-image: url(asset_path('performance'));
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.yesfitness {
+  background-image: url(asset_path('yes'));
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 .belcher {
   background-image: url(asset_path('belcher'));
   background-size: contain;
