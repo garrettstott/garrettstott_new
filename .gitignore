@@ -9,10 +9,9 @@
 /gems
 
 # Ignore SSL
-server.crt
+*.crt
+myserver.key
 server.csr
-server.key
-server.pass.key
 
 # Ignore all logfiles and tempfiles.
 /log/*
