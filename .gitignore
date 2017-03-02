@@ -8,11 +8,6 @@
 /.bundle
 /gems
 
-# Ignore SSL
-*.crt
-myserver.key
-server.csr
-
 # Ignore all logfiles and tempfiles.
 /log/*
 /tmp/*
