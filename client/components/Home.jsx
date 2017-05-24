@@ -11,7 +11,7 @@ class Home extends React.Component {
         <div className='twelve columns'>
           <div className='garrettstott'></div>
           <h1 className='home-title'>Garrett Stott</h1>
-          <h4 className="home-subtitle">Software Engineer</h4>
+          <h4 className="home-subtitle">Software Developer</h4>
           <div className="contact-icons">
             <a href="https://github.com/garrettstott" target="_blank" title="GitHub">
               <i className="contact-fa fa fa-github"></i>
