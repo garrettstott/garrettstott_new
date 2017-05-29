@@ -28,44 +28,37 @@ class About extends React.Component {
 
           <h4>Experience</h4>
 
-          {/* DEVPOINT */}
+          {/* LOLO */}
 
-          <h5><a title='DevPointLabs.com' href='http://www.devpointlabs.com' target='_blank'>DevPoint Labs</a>, Salt Lake City, UT</h5>
-          <h6>Co-Instructor, July 2016 - Present</h6>
-          <ul>
-            <li>I have applied my history of management and organizational roles to help structure the curriculum and day-to-day flow of the programs at DevPoint Labs.</li>
-            <li>Running Labs, keeping students on track with their projects.</li>
-            <li>Maintaining <a title='DevPointLabs.com' href='http://www.devpointlabs.com' target='_blank'>DevPointLabs.com</a></li>
-          </ul>
-          <h6>Teaching Assistant, May 2016 – July 2016</h6>
-          <ul>
-            <li>Monitor students’ progress through DevPoint Labs.</li>
-            <li>Teaching Assistant in maximizing student understanding and development.</li>
-            <li>Teach Ruby on Rails along with other web technologies -</li>
-            <li>Including: Ruby, Rails, HTML, CSS, JavaScript, SQL, Git, React and Redux.</li>
-          </ul>
+          <h5><a title='LoloFit.com' href='http://www.lolofit.com/' target='_blank'>Lolo</a>, Salt Lake City, UT</h5>
+          <h6>Software Engineer, October 2016 - Present</h6>
+          <p> 
+            At lolo, I develop features for multiple projects, primarily in Ruby on Rails and React JS. 
+            The products I work on include the website, back-end engine, and client front-end for a fitness 
+            platform in web/iOS/Android (Rails 4 / React); a music distribution platform (Rails 4 / React) and 
+            a music royalties management platform (Rails 2). With the breadth of technologies used in lolo's 
+            products, a big part of my job is working in a multitude of frameworks and implementing 
+            interconnectivity between them.
+          </p>
 
           {/* PERFORMANCE UT */}
 
           <h5><a title='No Website' href='#'>High West Digital Architects</a>, Salt Lake City, UT</h5>
           <h6>Software Engineer, July 2016 - Present</h6>
-          <ul>
-            <li>Project: <a title='PerformanceUT.com' href='https://www.performanceut.com/inventory/' target='_blank'>PerformanceUT.com</a></li>
-            <li>Inventory Management for multiple dealerships.</li>
-            <li>Worked on optimizing website’s JavaScript and CSS.</li>
-          	<li>Worked on security, by refactoring code to enable SSL certification.</li>
-          	<li>Implemented for sale by owner solution for clientele.</li>
-          </ul>
+          <p>
+            At High West Digital Architects, I develop features for a single project, primarily in Ruby on Rails 
+            and JS. I work on both the front-end and back-end on this project (Rails 4 / JS) a multi dealership, 
+            inventory management, shop and for sale by owner website.
+          </p>
 
-          {/* LOLO */}
+          {/* DEVPOINT */}
 
-          <h5><a title='LoloFit.com' href='http://www.lolofit.com/' target='_blank'>Lolo</a>, Salt Lake City, UT</h5>
-          <h6>Software Engineer, October 2016 - Present</h6>
-          <ul>
-            <li>Project: <a title='YES!FitnessMusic.com' href='http://www.yesfitnessmusic.com/#/store/home' target='_blank'>Yes! Fitness Music</a></li>
-            <li>I'm currently working on a few new features and bug fixes.</li>
-            <li>Future work on this project will involve a full rewrite of our API, and client side website.</li>
-          </ul>
+          <h5><a title='DevPointLabs.com' href='http://www.devpointlabs.com' target='_blank'>DevPoint Labs</a>, Salt Lake City, UT</h5>
+          <h6>Co-Instructor, April 2016 - April 2017</h6>
+          <p> 
+            At DevPoint Labs I applied my knowledge of Ruby on Rails, Javascript, React, HTML & CSS, 
+            and other concepts presented in the DevPoint Labs Full-Stack program to solidify the concepts with students during lecture and projects.
+          </p>
         </div>
       </div>
     );
