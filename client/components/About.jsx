@@ -32,6 +32,7 @@ class About extends React.Component {
 
           <h5><a title='LoloFit.com' href='http://www.lolofit.com/' target='_blank'>Lolo</a>, Salt Lake City, UT</h5>
           <h6>Software Engineer, October 2016 - Present</h6>
+          <p>Projects: JillianMichaels.com, YesFitnessMusic.com (various products)</p>
           <p> 
             At lolo, I develop features for multiple projects, primarily in Ruby on Rails and React JS. 
             The products I work on include the website, back-end engine, and client front-end for a fitness 
@@ -45,6 +46,7 @@ class About extends React.Component {
 
           <h5><a title='No Website' href='#'>High West Digital Architects</a>, Salt Lake City, UT</h5>
           <h6>Software Engineer, July 2016 - Present</h6>
+          <p>Project: performanceut.com</p>
           <p>
             At High West Digital Architects, I develop features for a single project, primarily in Ruby on Rails 
             and JS. I work on both the front-end and back-end on this project (Rails 4 / JS) a multi dealership, 
