@@ -17,7 +17,7 @@ class Post extends React.Component {
           <h5><Link title='Posted by Garrett Stott'className='post-title' to={`/posts/${post.id}`}>{post.title}</Link></h5>
           <h6 className='post-date'>{date}</h6>
         </div>
-        <div dangerouslySetInnerHTML={{__html: body}}></div>
+        <div dangerouslySetInnerHTML={{__html: body}}>...</div>
         <h6 className='center pad-top-sm mar-bot-no'><Link title='Posted by Garrett Stott' className='normal' to={`/posts/${post.id}`}>Read More</Link></h6>
       </div>
     )
