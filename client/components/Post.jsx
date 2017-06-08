@@ -9,7 +9,10 @@ class Post extends React.Component {
   render() {
     let post = this.props;
     let date = $.timeago(post.created_at);
-    let body = post.body.substring(0, 400).replace(/\n/g, '<br />');
+    let body = post.body.substring(0, 300).replace(/\n/g, '<br />');
+    if (body.substr(body.length -1, 1) == ' ') {
+      body = body.substr(0, body.length -1);
+    }
     body = body + '...'
     return (
       <div className='post'>
@@ -19,7 +22,7 @@ class Post extends React.Component {
           <h6 className='post-date'>{date}</h6>
         </div>
         <div dangerouslySetInnerHTML={{__html: body}}></div>
-        <h6 className='center pad-top-sm mar-bot-no'><Link title='Posted by Garrett Stott' className='normal' to={`/posts/${post.id}`}>Read More</Link></h6>
+        <h6 className='center pad-top-lg mar-bot-no'><Link title='Posted by Garrett Stott' className='' to={`/posts/${post.id}`}>Read More</Link></h6>
       </div>
     )
   }
