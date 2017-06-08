@@ -9,7 +9,8 @@ class Post extends React.Component {
   render() {
     let post = this.props;
     let date = $.timeago(post.created_at);
-    let body = post.body.substring(0, 400).replace(/\n/g, '<br />') + '...';
+    let body = post.body.substring(0, 400).replace(/\n/g, '<br />');
+    body = body + '...'
     return (
       <div className='post'>
         <div className='post-info twelve columns'>
